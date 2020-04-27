@@ -4,12 +4,13 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import Amplify from "aws-amplify";
+import AppWithAuth from "../src/AppwithAuth";
 // import awsExports from "./aws-exports";
 // Amplify.configure(awsExports);
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppWithAuth />
   </React.StrictMode>,
   document.getElementById("root")
 );
